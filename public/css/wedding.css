@@ -1,0 +1,174 @@
+/* Jasmine SMgallery */
+
+.jasmine-smgallery { padding: 35px 85px; background-color: #fbfafa; border-radius: 5px;}
+.jasmine-smgallery h2 { font-size: 17px; color: #000;}
+
+/* Jasmine Titles */
+.title-jasmine { text-align: center; margin:30px auto;}
+.title-jasmine *{ font-size: 27px; font-weight: bold; letter-spacing: 2px; color: #000;}
+.title-jasmine span { color: #e5ae49;}
+.title-jasmine p { font-size: 15px; font-style: italic; font-weight: normal; color: #333; letter-spacing: 0;}
+.blox.dark .title-jasmine span { color: #e5ae49;}
+
+/* Jasmine Bride or Groom */
+.brideorgroom-jasmine { position: relative; background-color: #fbfafa; text-align: center; padding: 60px 30px; border-radius: 5px;}
+.brideorgroom-jasmine .w-content { opacity: 0; -webkit-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease;  margin-top: -26px; margin-bottom:26px;}
+.brideorgroom-jasmine .w-overlay { opacity: 1; -webkit-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; position: absolute; top: 50%; margin-top: -76px; left: 50%; margin-left: -78px;}
+.brideorgroom-jasmine .w-overlay .w-icon { display: inline-block;  width: 54px;  height: 58px;}
+.brideorgroom-jasmine.w-bride .w-overlay .w-icon { background: url(../images/jasmine/bride-icon.png);}
+.brideorgroom-jasmine.w-groom .w-overlay .w-icon { background: url(../images/jasmine/groom-icon.png);}
+.brideorgroom-jasmine .w-overlay p { margin-top: 13px; letter-spacing: 1.5px;}
+.brideorgroom-jasmine .w-overlay p span { color: #e41919; font-size: 17px; font-weight: bold;}
+.brideorgroom-jasmine:hover .w-overlay { opacity: 0; margin-top: -116px; visibility:hidden;}
+.brideorgroom-jasmine:hover .w-content { opacity: 1; margin:0;}
+.brideorgroom-jasmine .w-content img  { border-radius: 50%; width; 214px; height: 214px; margin-bottom: 25px }
+.brideorgroom-jasmine .w-content h2 { font-size:17px; font-weight:bold; margin-bottom: 13px;}
+.brideorgroom-jasmine .w-content p { color: #696f6f; font-size: 15px; padding-left: 50px; padding-right: 50px; line-height: 27px;}
+.brideorgroom-jasmine .w-content .social-team { display:block; text-align: center; padding-bottom: 21px;}
+.social-team { display:block;}
+
+@media only screen and (max-width: 960px) {
+	.brideorgroom-jasmine { padding: 15px;}
+	.brideorgroom-jasmine .w-content p { padding-right: 10px; padding-left: 10px;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+	.brideorgroom-jasmine .social-team i{ padding-top: 13px;}
+}
+
+@media only screen and (max-width: 960px) and (min-width: 768px) {
+	.brideorgroom-jasmine .social-team i {
+		font-size: 16px;
+		padding: 13px;
+	}
+}
+
+
+/* # Jasmine Countdown
+================================================== */
+.countdown-w.ctd-jasmine .block-w { border: none; width: auto; padding: 25px 0; margin-left: 20px; margin-right: 20px;}
+@media only screen and (min-width: 960px) {
+	.countdown-w.ctd-jasmine span.seconds-w.block-w { width:24%;}
+}
+.countdown-w.ctd-jasmine .icon-w { font-size: 60px; float: left;}
+.countdown-w.ctd-jasmine .icon-w.li_calendar { color: #e49e96;}
+.countdown-w.ctd-jasmine .icon-w.fa-clock-o { color: #c2da9f;}
+.countdown-w.ctd-jasmine .icon-w.li_clock { color: #8dd4f0;}
+.countdown-w.ctd-jasmine .icon-w.li_heart { color: #f690c1;}
+.countdown-w.ctd-jasmine .count-w { padding: 0; float: left; font-size: 78px; line-height: 59px; font-weight: 100; color: #4d433a; margin-left: 6px; margin-right: 10px;}
+.countdown-w.ctd-jasmine .minutes-w .count-w { margin-left: 0;}
+.countdown-w.ctd-jasmine .label-w { float: left; padding-top: 20px; color: #4d433a; font-size: 15px; letter-spacing: 8px;}
+
+.widget .countdown-w.ctd-jasmine { padding:0;}
+.widget .countdown-w.ctd-jasmine .block-w { margin: 0; border-right: 1px solid rgb(77, 77, 77); border-radius: 0; padding:0 24px; height:auto;}
+.widget .countdown-w.ctd-jasmine .block-w.seconds-w {border-right:0;}
+.widget .countdown-w.ctd-jasmine .icon-w { font-size:36px;}
+.widget .countdown-w.ctd-jasmine .count-w { color: #fff; font-size:48px; line-height: 36px; width: 56px;}
+.widget .countdown-w.ctd-jasmine .days-w .count-w { width: auto;}
+.widget .countdown-w.ctd-jasmine .label-w { color: #fff; letter-spacing: 0px; padding-top: 8px;}
+
+
+/* # Jasmine Event Box
+================================================== */
+.infobox { border-radius: 5px; position: relative; overflow: hidden; margin-bottom: 12px;}
+.infobox-overlay { opacity:1; width: 100%;  background-color: #fbfafa; position: absolute; top: 0; left: 0; text-align: center; padding: 40px; padding-top: 55px; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out;}
+.infobox-overlay i { font-size: 55px; color: #e41919;}
+.infobox-overlay h4 { margin-top: 22px; font-size: 17px; color: #000; font-weight:bold;}
+.infobox:hover .infobox-overlay { opacity:0; visibility:hidden; margin-left:-12px; margin-top:-35px;}
+.infobox-content { opacity:0; margin-right:-15px; margin-top:25px; margin-bottom:-25px; padding:20px; padding-right:35px; background-color: #fbfafa; text-align: center; -webkit-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; transition: all .3s ease-in-out;}
+.infobox:hover .infobox-content { opacity:1; margin:0; padding:20px;}
+.infobox-content i { font-size: 34px; padding-right: 10px; color: #e41818;}
+.infobox-content h4 { font-size: 17px; color: #000; margin-top: 8px; margin-bottom: 20px;}
+.infobox-content p { font-size: 13px; color: #666;}
+.infobox-content h4 span { position: relative; bottom: 8px; font-weight:bold;}
+
+
+/* # Jasmine Wedding Team
+================================================== */
+.wedding-team-jasmine {position: relative;}
+.wedding-team-jasmine img.team-img  {border-radius: 50%; float: left; max-width: 214px; margin: 0 20px;}
+.wedding-team-jasmine .team-cap  {overflow: hidden;}
+.wedding-team-jasmine .team-cap h3  {font-size: 17px; line-height:29px; font-weight: bold; color: #000; margin-bottom: 0px;}
+.wedding-team-jasmine .team-cap h4  {color: #c52f4e; font-size: 15px; font-weight: 300; margin-bottom: 10px;}
+.wedding-team-jasmine .team-cap p  {color: #555; font-weight: 300;}
+.wedding-team-jasmine.w-mirror .team-img  {float: right;}
+.wedding-team-jasmine.w-mirror .team-cap  {text-align: right;}
+.wedding-team-jasmine .social-team { text-align:center;}
+
+.vc_col-sm-3 .wedding-team-jasmine img.team-img, .vc_col-sm-4 .wedding-team-jasmine img.team-img  { width:110px; height:110px; margin:0 auto; float:none; display:block;}
+.vc_col-sm-3 .wedding-team-jasmine .team-cap, .vc_col-sm-4 .wedding-team-jasmine .team-cap { overflow: visible; padding-top: 20px;}
+.vc_col-sm-3 .wedding-team-jasmine .team-cap h4, .vc_col-sm-4 .wedding-team-jasmine .team-cap h4   { font-weight: 300; margin-bottom: 0;}
+.vc_col-sm-3 .wedding-team-jasmine .team-cap p, .vc_col-sm-4 .wedding-team-jasmine .team-cap p {  float: none; margin-top: 12px; font-size: 13px; line-height: 1.68; padding: 0 6px; font-weight: 400; color: #666;}
+.vc_col-sm-3 .wedding-team-jasmine .team-cap, .vc_col-sm-4 .wedding-team-jasmine .team-cap { text-align:center;}
+
+
+@media only screen and (max-width: 960px) {
+.wedding-team-jasmine img.team-img,
+.wedding-team-jasmine.w-mirror img.team-img,
+.vc_col-sm-3 .wedding-team-jasmine img.team-img,
+.vc_col-sm-4 .wedding-team-jasmine img.team-img,
+.vc_col-sm-3 .wedding-team-jasmine.w-mirror img.team-img,
+.vc_col-sm-4 .wedding-team-jasmine.w-mirror img.team-img {float: none; margin: 0 auto; display: block;}
+}
+
+
+/* # Jasmine Latest From Blog
+================================================== */
+.latestposts-jasmine .blog-post img, .blog-post iframe, .blog-single-post img, .blog-single-post iframe { border-bottom: none;}
+.latestposts-jasmine .entry-meta, .entry-content { float: left; margin-bottom: 8px;}
+.latestposts-jasmine .blog-date-sec { border-right: none; padding-right: 0;}
+.latestposts-jasmine .blog-post .blog-date-sec img { width: 65px; height: 65px; padding: 3px; border-radius: 50%; border:1px solid #eee;}
+.latestposts-jasmine .blog-date-sec { border-right: none; padding-right: 15px; float: left; min-width:80px;}
+.latestposts-jasmine .blog-post p.blog-author { padding-top: 10px; margin-bottom: 15px; font-size: 14px; font-weight: bold; color: #455454; letter-spacing: 0.2px;}
+.latestposts-jasmine .blog-post h4 { font-size: 29px; font-weight: bold; margin-bottom: 12px;}
+.latestposts-jasmine .blog-line p.blog-cat a, .blog-post a {color: #d6516d;}
+.latestposts-jasmine .blog-post .entry-content p.blog-detail { color: #777; font-weight:300; font-size:17px; line-height:1.58;}
+.latestposts-jasmine .blog-post a.readmore:after { content: '';}
+.latestposts-jasmine .blog-post a.readmore { margin-top: 15px; padding: 10px 25px; background-color: #a6abab; display: inline-block; font-size: 13px; font-weight: bold; color: #fff !important; border-radius: 3px; text-align: center; text-transform:uppercase; letter-spacing:1px;}
+.latestposts-jasmine .blog-post a.readmore:hover { background-color: #dfa948; color: #fff !important;}
+.latestposts-jasmine .blog-post p a.readmore { border: none;}
+.latestposts-jasmine .blog-post p.blog-author a { font-size: 14px; color: #000;}
+.latestposts-jasmine .blog-line p.blog-cat a { font-weight: 600; font-size:13px; letter-spacing:1px;}
+.latestposts-jasmine .blog-line h4 { font-weight: normal;}
+.latestposts-jasmine .blog-line p { font-size: 12px;}
+.latestposts-jasmine .blog-line:hover h4 a { color: #d6516d;}
+.latestposts-jasmine .blog-line:hover .img-hover:before { -webkit-box-shadow: inset 0 0 0 5px #d6516d; -moz-box-shadow: inset 0 0 0 5px #d6516d; box-shadow: inset 0 0 0 5px #d6516d;}
+.latestposts-jasmine .blog-line p strong { font-size:12px; font-weight:300;}
+.latestposts-jasmine .blog-post img { margin:0; padding:0;}
+.latestposts-jasmine .blog-post .pad-r20 a { position:relative; display:inline-block;}
+.latestposts-jasmine .blog-post .pad-r20 a:before { content: ""; position: absolute; top: 0; bottom: 0; left: 0; right: 0; box-shadow: inset 0 0 0 5px rgba(255,255,255,0.8); opacity: 1; transition: all 0.18s ease; }
+
+
+/* # Jasmine Wedding Divider
+================================================== */
+.w-divider3 { background: url('../images/jasmine/heart.png') no-repeat center center; max-width: 632px; position:relative; height: 15px; margin: 0 auto;}
+
+
+
+/* # Jasmine Twitter Feed
+================================================== */
+.w-twitterfeed-jasmine { background-color: rgb(251, 250, 250); padding: 30px 40px 30px 90px; border-radius: 5px;}
+.w-twitterfeed-jasmine img { width: 108px; height: 108px; border-radius: 50%; float: left; margin-right: 20px;}
+.w-twitterfeed-jasmine .tweets { clear: both; padding-top: 30px; list-style: none;}
+.w-twitterfeed-jasmine figcaption { padding-top: 41px;}
+.w-twitterfeed-jasmine h3 { font-size: 24px; font-weight: 700; color: #000; line-height: 24px; margin-bottom: 0;}
+.w-twitterfeed-jasmine h4 ,.w-twitterfeed-jasmine .tweets li { font-size: 15px; font-weight: 300; color: #000; margin-bottom: 29px; line-height: 24px;}
+.w-twitterfeed-jasmine .tweets li.tw-item { margin-bottom: 4px;}
+.w-twitterfeed-jasmine .tweets li.tw-timestamp { color: #999; font-size: 13px; text-transform: uppercase;}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+.w-twitterfeed-jasmine { padding-left: 30px;}
+}
+@media only screen and (max-width: 768px) {
+.w-twitterfeed-jasmine { padding-left: 15px;}
+}
+
+
+/* # Jasmine Vintage Bg
+================================================== */
+.vintage-box1 { position:relative; background: url('../images/jasmine/vintagebg2.png') no-repeat top right; padding:90px 45px 70px 40px; text-align:center; border-radius: 5px;}
+.vintage-box1:before { display:block; content:""; position:absolute; left:0; bottom:0; background: url('../images/jasmine/vintagebg2b.png') no-repeat bottom left; width:130px; height:130px;}
+.vintage-box1 p { font-family:'Roboto Slab',serif; font-size:21px; line-height:1.3; color:#333; margin-bottom:14px;}
+.vintage-box1 em { font-size:18px; font-weight:bold; color:#666; font-family:'Arapey',serif;}
+
+.footer-vintage1 { background: url('../images/jasmine/newfooter-vtg.png') no-repeat center; text-align:center; padding:30px; font-family:'Arapey',serif; font-size:28px; width:360px; height:385px; line-height:1.5; padding-top:158px;}

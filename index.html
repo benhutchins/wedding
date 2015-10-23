@@ -1,0 +1,43 @@
+---
+layout: default
+title: Home
+---
+
+<div id="wrap">
+  {% comment %}
+    {% include sidebar.html %} adds class="vertical-toggle-header-enabled" to wrap
+    {% include header.html %}
+  {% endcomment %}
+
+  <section id="main-content" class="container">
+    <div class="row-wrapper-x"></div>
+  </section>
+
+  {% include jumbotron.html %}
+
+  {% comment %}
+    <section class="container">
+      <div class="row-wrapper-x">
+        {% include couple.html %}
+
+        {% include story.html %}
+
+        {% include ceremony.html %}
+
+        {% include countdown.html %}
+
+        {% include party.html %}
+
+        {% include people.html %}
+      </div>
+    </section>
+
+    {% include rsvp.html %}
+
+    {% include blog.html %}
+  {% endcomment %}
+</div>
+
+{% comment %}
+  {% include scripts.html %}
+{% endcomment %}
