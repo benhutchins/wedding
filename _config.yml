@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Benjamin & Cassandra's Wedding
+tagline:          '@ben_hutchins blog'
+description:      'Professional geek. Genius in training.'
+url:              http://benhutchins.github.io
+baseurl:          /
+
+author:
+  name:           'Benjamin Hutchins'
+  url:            https://twitter.com/ben_hutchins
+
+paginate:         5
