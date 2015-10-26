@@ -754,19 +754,16 @@ div.wpcf7-validation-errors { clear: both; }
 }
 
 .tp-caption.slide-element1 {
-  color: rgb(223, 169, 72);
-  text-shadow: none;
+  color: #fff;
   font-weight: 400;
   font-size: 15px;
   line-height: 1;
-  margin: 0px;
+  /*margin: 0px;*/
   white-space: nowrap;
   font-style: italic;
   text-decoration: none;
-  background-color: transparent;
-  border-width: 0px;
-  border-color: rgb(0, 0, 0);
-  border-style: none
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 4px;
 }
 
 .tp-caption.slider-element3 {
@@ -776,9 +773,6 @@ div.wpcf7-validation-errors { clear: both; }
   color: #e5ae49;
   text-decoration: none;
   background-color: transparent;
-  border-width: 0px;
-  border-color: rgb(255, 214, 88);
-  border-style: none
 }
 
 .tp-caption.slider-element2 {
@@ -788,22 +782,16 @@ div.wpcf7-validation-errors { clear: both; }
   color: rgb(0, 0, 0);
   text-decoration: none;
   background-color: transparent;
-  border-width: 0px;
-  border-color: rgb(255, 214, 88);
-  border-style: none
 }
 
 .tp-caption.slider-element4 {
   font-size: 20px;
   line-height: 1;
   font-weight: 300;
-  color: rgb(0, 0, 0);
+  color: #fff;
   text-decoration: none;
-  text-shadow: none;
-  background-color: transparent;
-  border-width: 0px;
-  border-color: rgb(0, 0, 0);
-  border-style: none
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 4px;
 }
 
 .tp-caption.modern_medium_light2 {
